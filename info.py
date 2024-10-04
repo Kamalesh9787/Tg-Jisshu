@@ -68,7 +68,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlD0BuFdFwgqrk8VnskKGSFxacEPQNWXycs27oB_1pGU7V_QETUhAF44nt&s=10 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeW47ETq1gD_XAQ1kZ_Im-L_owpoGHENghoA&usqp=CAU')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
